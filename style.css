@@ -60,29 +60,29 @@ h2 {
 
 /*Slider settings (index)*/
 
-.slider {
+.home-slider {
   width: 100%;
   overflow-x: auto; /* Allows horizontal scrolling */
   white-space: nowrap; /* Keeps images in a single line */
   margin: 20px 0;
 }
 
-.slider-wrapper {
+.home-slider-wrapper {
   display: flex; /* Arrange images in a horizontal row */
 }
 
-.slider img {
+.home-slider img {
   width: 400px; /* Adjust width as needed */
   height: auto; /* Maintain aspect ratio */
   margin-right: 25px; /* Add spacing between images */
   border-radius: 10px; /* Optional: rounded corners */
 }
 
-.slider::-webkit-scrollbar {
+.home-slider::-webkit-scrollbar {
   height: 10px; /* Customize scrollbar height */
 }
 
-.slider::-webkit-scrollbar-thumb {
+.home-slider::-webkit-scrollbar-thumb {
   background-color: #ccc; /* Customize scrollbar thumb color */
   border-radius: 5px; /* Optional: rounded scrollbar */
 }
@@ -196,35 +196,3 @@ footer {
   }
 }
 
-
-/* Make the slider container take full width of the viewport (history page)*/
-.history-slider-container {
-  width: 100%; /* Full width */
-  height: 100vh; /* Full height of the viewport */
-  margin: 0 auto; /* Center the slider */
-  overflow: hidden; /* Hide overflow of images */
-}
-
-/* Make the images stretch across the entire width of the container */
-.history-slider {
-  display: flex; /* Arrange images horizontally */
-  transition: transform 1s ease; /* Smooth transition for sliding effect */
-  width: 400%; /* This should be the number of images multiplied by 100% */
-}
-
-.history-slide {
-  width: 100%; /* Make each image take up full width of the container */
-  height: 100%; /* Make the images stretch to fill the container's height */
-  object-fit: cover; /* Ensure the images fill the container without distortion */
-}
-
-/* Optional: Add a border or shadow to the slider container */
-.history-slider-container {
-  border: 2px solid #ddd;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-
-
-
-  
