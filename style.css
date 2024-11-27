@@ -11,6 +11,9 @@ h1 {
 h2 {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
+}
+
+.center-align-page h2 {
   text-align: center;
 }
 
@@ -304,5 +307,7 @@ footer {
 .product-image-wrapper:hover .overlay {
   opacity: 1; /* Make overlay visible */
 }
+
+
 
 
