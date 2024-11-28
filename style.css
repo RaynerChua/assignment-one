@@ -357,6 +357,97 @@ footer {
   display: inline-block; /* Make button visible */
 }
 
+/*SHOPPING CART CSS*/
+
+#shopping-cart {
+  width: 90%;
+  margin: auto;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cart-card {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.dropdown-button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropdown-button:hover {
+  background: #0056b3;
+}
+
+.card-body {
+  display: none; /* Hidden by default */
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-button {
+  padding: 5px 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.quantity-button:hover {
+  background: #0056b3;
+}
+
+.delete-button {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.delete-button:hover {
+  background: #cc0000;
+}
 
 
 

@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" type="text/css" href="style.css">
         <title>The Potato Lounge</title>
     </head>
@@ -29,7 +29,12 @@
                 <img src="img/cactus-sofa.jpg" alt="Cactus Sofa">
                 <div class="overlay">
                     <div class="overlay-text">Cactus Sofa - $299</div>
-                    <a href="cart.html" class="product-overlay-button">Add to Cart</a>
+                    <a href="#" class="product-overlay-button add-to-cart" 
+                       data-name="Cactus Sofa" 
+                       data-price="299" 
+                       data-image="img/cactus-sofa.jpg">
+                       Add to Cart
+                    </a>
                 </div>
             </div>
         
@@ -37,7 +42,12 @@
                 <img src="img/egg_sofa.jpg" alt="Egg Sofa">
                 <div class="overlay">
                     <div class="overlay-text">Egg Sofa - $349</div>
-                    <a href="cart.html" class="product-overlay-button">Add to Cart</a>
+                    <a href="#" class="product-overlay-button add-to-cart" 
+                       data-name="Egg Sofa" 
+                       data-price="329" 
+                       data-image="img/egg_sofa.jpg">
+                       Add to Cart
+                    </a>
                 </div>
             </div>
 
@@ -109,6 +119,7 @@
             </div>
         </div>
         <br>
+        <script src="potato.js"></script>
     </body>
     <footer id="footer">
         <div class="footer-container">
@@ -148,6 +159,5 @@
                 </div>
             </div>
         </div>
-        <script src="potato.js"></script>
     </footer>
 </html>
