@@ -8,10 +8,22 @@ h1 {
   text-align: center;
 }
 
-h2 {
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
+
+header {
+  display: flex; /* Use Flexbox for alignment */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 150px; /* Optional: Define header height */
 }
+
+#logo {
+  max-width: 380px; /* Adjust max width to reduce image size */
+  max-height: 380px; /* Adjust max height to reduce image size */
+  width: auto; /* Maintain aspect ratio */
+  height: auto; /* Maintain aspect ratio */
+  padding-bottom: 10px;
+}
+
 
 .center-align-page h2 {
   text-align: center;
@@ -203,6 +215,18 @@ footer {
   .footer-section {
       margin-bottom: 20px; /* Space between stacked sections */
   }
+
+  .map-container iframe {
+    width: 100%;
+  }
+}
+
+.map-container iframe {
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 100%; /* Responsive width */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 15px; /* Space between phone number and map */
 }
 
 /*History page image card text settings*/
@@ -288,6 +312,7 @@ footer {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay */
   display: flex; /* Center the text inside */
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   opacity: 0; /* Initially hidden */
@@ -300,13 +325,38 @@ footer {
   font-size: 18px; /* Text size */
   text-align: center;
   font-family: 'Arial', sans-serif;
-  padding: 10px; /* Optional: space around the text */
+  margin-bottom: 10px; 
 }
 
 /* Show overlay on hover */
 .product-image-wrapper:hover .overlay {
   opacity: 1; /* Make overlay visible */
 }
+
+.product-overlay-button {
+  display: none; /* Initially hidden */
+  background-color: #ff9900; /* Button color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Button padding */
+  font-size: 16px; /* Font size */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Change background color on hover */
+.product-overlay-button:hover {
+  background-color: #e68a00; /* Darker button color */
+}
+
+/* Show the button on hover */
+.product-image-wrapper:hover .product-overlay-button {
+  display: inline-block; /* Make button visible */
+}
+
 
 
 
