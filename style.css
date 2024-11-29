@@ -27,6 +27,7 @@ header {
 
 .center-align-page h2 {
   text-align: center;
+  padding: 15px;
 }
 
 /* website navigation settings */
@@ -95,8 +96,8 @@ header {
 }
 
 .home-slider img {
-  width: 400px; /* Adjust width as needed */
-  height: auto; /* Maintain aspect ratio */
+  width: 350px; /* Adjust width as needed */
+  height: 350px; /* Maintain aspect ratio */
   margin-right: 25px; /* Add spacing between images */
   border-radius: 10px; /* Optional: rounded corners */
 }
@@ -242,9 +243,9 @@ footer {
 
 /* Image Styling */
 .image {
-  max-width: 500px; /* Limit the width of the image */
+  max-width: 700px; /* Limit the width of the image */
   width: 100%; /* Make it responsive */
-  height: auto;
+  height: 500px;
   border-radius: 10px; /* Optional: rounded corners */
 }
 
@@ -449,6 +450,16 @@ footer {
   background: #cc0000;
 }
 
+.history-image-container {
+  text-align: center;
+}
+
+.history-image-container img {
+  display: inline-block;
+  width: 20%; /* Adjust the width as needed */
+  height: auto; /* Keeps the aspect ratio */
+  margin: 0 10px;/
+}
 
 
 
