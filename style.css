@@ -244,6 +244,33 @@ footer {
   font-size: 14px; /* Link size */
 }
 
+/* Quick Links Section */
+.footer-section.links ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section.links ul li {
+  margin-bottom: 15px; /* Add spacing between links */
+}
+
+.footer-section.links ul li a {
+  display: block; /* Make links block-level to fill space horizontally */
+  font-size: 1.2rem; /* Increase font size */
+  text-decoration: none; /* Remove underline */
+  color: white; /* Adjust the link color */
+  padding: 8px 0; /* Add vertical padding */
+  border-radius: 5px; /* Optional: Round edges for better aesthetics */
+  transition: background-color 0.3s, color 0.3s; /* Add hover effect */
+}
+
+.footer-section.links ul li a:hover {
+  text-decoration: underline;
+  color: #007bff; /* Change text color on hover */
+}
+
+
 .footer-section a:hover {
   color: #ff9900; /* Change color on hover */
 }
