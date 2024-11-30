@@ -554,5 +554,46 @@ footer {
   margin: 0 10px;/
 }
 
+/*Redemption Code form*/
+/* Redemption Code Section */
+.redeem-code {
+  margin-top: 100px;
+  text-align: left;
+}
+
+.redeem-code h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+#redeem-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+#redemption-code {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.redeem-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.redeem-btn:hover {
+  background-color: #0056b3;
+}
+
 
 
