@@ -26,6 +26,7 @@ header {
 
 
 .center-align-page h2 {
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
   padding: 15px;
 }
@@ -33,7 +34,7 @@ header {
 .home-page h1 {
   font-weight: bold;
   font-family: 'Courier New', Courier, monospace;
-  text-align: left;
+  text-align: center;
   padding-left: 10px;
   color: #ef0909;
 }
@@ -145,6 +146,7 @@ header {
 }
 
 .product-title {
+  font-family: 'Courier New', Courier, monospace;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 5px;
@@ -152,6 +154,7 @@ header {
 }
 
 .product-description {
+  font-family: 'Courier New', Courier, monospace;
   font-size: 14px;
   color: black;
   margin-bottom: 10px;
@@ -161,6 +164,7 @@ header {
 .view-more-button {
   display: inline-block;
   padding: 10px 20px;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 14px;
   color: #fff;
   background-color: #007BFF; /* Button color */
@@ -189,6 +193,7 @@ header {
   left: 50%; /* Center horizontally */
   transform: translate(-50%, -50%); /* Adjust for exact centering */
   padding: 0 10px; /* Optional: add padding around text */
+  font-family: 'Courier New', Courier, monospace;
   font-size: 28px; /* Adjust text size */
   font-weight: bold; /* Make text bold */
   color: white; /* Text color */
@@ -457,7 +462,7 @@ footer {
   color: white; /* Text color */
   font-size: 18px; /* Text size */
   text-align: center;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   margin-bottom: 10px; 
 }
 
@@ -472,6 +477,8 @@ footer {
   color: white; /* Text color */
   border: none; /* Remove border */
   padding: 10px 20px; /* Button padding */
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
   font-size: 16px; /* Font size */
   text-align: center; /* Center text */
   text-decoration: none; /* Remove underline */
