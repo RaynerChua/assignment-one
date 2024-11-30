@@ -438,96 +438,94 @@ footer {
   display: inline-block; /* Make button visible */
 }
 
-/*SHOPPING CART CSS*/
-
-#shopping-cart {
-  width: 90%;
-  margin: auto;
-  background: #f9f9f9;
+.cart-container {
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-#cart-items {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
 }
 
-.cart-card {
-  display: flex;
-  flex-direction: column;
-  background: #ffffff;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 15px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: relative;
-}
-
-.card-header {
+.cart-item {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.product-name {
-  font-size: 18px;
+.cart-item-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.cart-item-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cart-item-title {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.cart-item-description {
+  font-size: 1rem;
+  color: #666;
+  margin: 0;
+}
+
+.cart-item-price {
+  font-size: 1.2rem;
   font-weight: bold;
-  margin-right: 10px;
+  color: #333;
+  margin: 0;
 }
 
-.dropdown-button {
-  background: #007bff;
-  color: white;
-  border: none;
-  padding: 5px 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.dropdown-button:hover {
-  background: #0056b3;
-}
-
-.card-body {
-  display: none; /* Hidden by default */
-  margin-top: 10px;
-  font-size: 14px;
-}
-
-.quantity-container {
+.cart-item-quantity {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.quantity-button {
-  padding: 5px 10px;
-  background: #007bff;
+.quantity-btn {
+  background-color: #343a40;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
+  padding: 5px 10px;
   cursor: pointer;
+  font-size: 1rem;
 }
 
-.quantity-button:hover {
-  background: #0056b3;
+.quantity-btn:hover {
+  background-color: #495057;
 }
 
-.delete-button {
-  background: #ff4d4d;
+.quantity-number {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.delete-btn {
+  background-color: #dc3545;
   color: white;
   border: none;
-  padding: 5px 10px;
-  border-radius: 5px;
+  border-radius: 4px;
+  padding: 10px;
   cursor: pointer;
-  margin-left: auto;
+  align-self: flex-start;
+  font-size: 1rem;
 }
 
-.delete-button:hover {
-  background: #cc0000;
+.delete-btn:hover {
+  background-color: #c82333;
 }
 
 .history-image-container {
