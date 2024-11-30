@@ -25,6 +25,7 @@ header {
 }
 
 
+
 .center-align-page h2 {
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
@@ -70,7 +71,7 @@ header {
   
   /*nav first child spacing*/
   .topnav a:first-child {
-    margin-right: 10px;
+    margin-left: 10px;
   }
 
   /*nav last child spacing*/
@@ -388,6 +389,9 @@ footer {
 
 /* Text card styling */
 .text-card {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: center;
   max-width: 500px;
   background-color: #f0f0f0; /* Light background color */
   padding: 20px;
@@ -399,6 +403,8 @@ footer {
 }
 
 .text-card h2 {
+  color: #c82333;
+  text-decoration: underline;
   font-size: 24px;
   margin-bottom: 10px;
 }
