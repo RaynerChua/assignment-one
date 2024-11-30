@@ -30,6 +30,13 @@ header {
   padding: 15px;
 }
 
+.home-page h1 {
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  padding-left: 10px;
+  color: #cc0000;
+}
+
 /* website navigation settings */
 /* Add a background color to the top navigation */
 .topnav {
