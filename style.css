@@ -274,6 +274,17 @@ footer {
   .map-container iframe {
     width: 100%;
   }
+
+  .cart-item {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cart-item-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
 }
 
 .map-container iframe {
@@ -438,21 +449,15 @@ footer {
   display: inline-block; /* Make button visible */
 }
 
-.cart-container {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
 .cart-item {
-  display: flex;
-  align-items: center;
-  background-color: white;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    gap: 20px; /* Space between image and details */
 }
 
 .cart-item-image {
@@ -460,38 +465,46 @@ footer {
   height: 150px;
   object-fit: cover;
   border-radius: 8px;
-  margin-right: 20px;
 }
 
 .cart-item-details {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  flex: 1; /* Take up the remaining space next to the image */
+  display: flex; /* Arrange the content in one row */
+  align-items: center; /* Align items vertically in the center */
+  justify-content: space-between; /* Distribute content evenly */
+  gap: 10px; /* Space between elements */
 }
 
 .cart-item-title {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
   margin: 0;
+  flex: 2; /* More space for title */
 }
 
 .cart-item-description {
   font-size: 1rem;
   color: #666;
   margin: 0;
+  flex: 3; /* More space for the description */
 }
 
 .cart-item-price {
   font-size: 1.2rem;
   font-weight: bold;
   color: #333;
-  margin: 0;
+  margin: 20px;
+  flex: 1; /* Adjust space for the price */
+  text-align: center;
 }
 
 .cart-item-quantity {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
+  flex: 1; /* Adjust space for quantity controls */
+  justify-content: center;
+  margin-left: 40px;
 }
 
 .quantity-btn {
@@ -509,7 +522,7 @@ footer {
 }
 
 .quantity-number {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
@@ -520,13 +533,15 @@ footer {
   border-radius: 4px;
   padding: 10px;
   cursor: pointer;
-  align-self: flex-start;
-  font-size: 1rem;
+  flex: 1; /* Adjust space for delete button */
+  text-align: center;
+  margin-left: auto;
 }
 
 .delete-btn:hover {
   background-color: #c82333;
 }
+
 
 .history-image-container {
   text-align: center;
