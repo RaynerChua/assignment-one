@@ -71,7 +71,7 @@ function renderCart() {
           <span>${product.quantity}</span>
           <button class="increase-qty">+</button>
         </div>
-        <button class="remove-item">Remove</button>
+        <button class="Delete-item">Remove</button>
       </div>
     `;
 
@@ -103,3 +103,6 @@ function renderCart() {
 
 // Render the cart on page load
 renderCart();
+
+
+
