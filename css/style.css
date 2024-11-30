@@ -34,7 +34,7 @@ header {
   font-weight: bold;
   font-family: 'Courier New', Courier, monospace;
   padding-left: 10px;
-  color: #cc0000;
+  color: #ef0909;
 }
 
 /* website navigation settings */
@@ -116,7 +116,7 @@ header {
   width: 350px; /* Adjust card width as needed */
   display: inline-block; /* Keeps cards in a single line */
   margin-right: 25px; /* Add spacing between cards */
-  background-color: #f9f9f9; /* Light background color for the card */
+  background-color: orange; /* Light background color for the card */
   border: 1px solid #ddd; /* Optional: card border */
   border-radius: 10px; /* Rounded corners */
   text-align: center; /* Center align text */
@@ -141,11 +141,12 @@ header {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 5px;
+  text-decoration: underline;
 }
 
 .product-description {
   font-size: 14px;
-  color: #555;
+  color: black;
   margin-bottom: 10px;
 }
 
