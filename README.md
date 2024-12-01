@@ -87,7 +87,14 @@ Users can select their payment option, key in their card information & save it f
 Subscriptions & live sessions:
 Users can subscribe to my company for more information on upcoming sales, goods & promotions. Every session will record user data and be stored for use later.
 
-## Technologies Used:
+## Technologies Used
+
+My JS code does not use JQuery but opts for plain javascript, Event listeners (DOM content loaded, scroll() and click).
+
+DOM Manipulation like getElementByID & style.Opacity. Followed by smooth scrolling (windows.scrollto & behaviour: "smooth")
+
+Technologies Used:
+
 
 Font Awesome Icons: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css
 
@@ -204,6 +211,11 @@ I was inspired to create this website based off the stereotype of couch potatoes
 
 https://dictionary.cambridge.org/dictionary/english/couch-potato
 
+
+Materials referenced:
+
+PoliteMall ID Slides
+
 Some of my website features were made possible by referencing the following videos/sites/material:
 
 javascript ref:
@@ -217,4 +229,6 @@ https://youtu.be/hr4JiDr7Aec?si=S7uZs27NYBoxnL9g
 
 https://www.w3schools.com/ 
 
+
 PoliteMall Slides
+
