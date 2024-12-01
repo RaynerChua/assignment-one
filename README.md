@@ -102,6 +102,10 @@ Font Awesome Icons: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-be
 
 ## Testing
 
+Website is functional in Microsoft Edge & Google Chrome.
+
+User stories & test scenario:
+
 - Customer that wants to contact the company & redeem codes:
   
   steps to take:
@@ -155,6 +159,10 @@ Font Awesome Icons: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-be
 
   Expectations & reality:
   Nav bar routes work without issue
+
+  Some potential issues with responsiveness on different devices:
+  -weird footer alignment
+  -image slider in product page alignment
 
 ## Credits
  
