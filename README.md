@@ -1,6 +1,6 @@
 # assignment-one
 
-The Potato Lounge (E-commerce Website)
+## The Potato Lounge E-commerce Website
 
 The Potato Lounge is a unique and innovative company based in Singapore, specializing in two distinct offerings: exquisitely designed couches and premium-grade potato products. Our collection of uniquely aesthetic sofas is sourced externally, while our high-quality potato products are crafted in-house and made available for purchase through our online platform.
 
@@ -23,6 +23,13 @@ Should they find something of interest the view more option directs them to our 
 If a customer wants to know more about our company, they can access that history page to find out more.
 
 If I were to put myself in their shoes, I believe that this website can fulfill my needs when it comes to searching for the perfect couch as well as picking out my favourite potato snack on the way. The prices are also reasonable and not blown out of proportion.
+
+User Stories:
+
+- Customer that wants to contact the company & redeem codes
+- Customer that wants to view more products and buy them
+- Customer that wants to hop onto every page
+  
 
 Company Logo (Adobe Illustrator):
 https://assets.adobe.com/id/urn:aaid:sc:AP:d33b4d15-4c79-4a8d-9f2e-9b1556878fdb?view=published
@@ -53,14 +60,11 @@ History Page:
 - h1 (title/question) & h2(description)
 - image container with images related to the description.
 - image with text-cards next to them (contains card title & short description of image)
-<<<<<<< HEAD
-=======
 
 Contact Us: Automatically scrolls to the footer when clicked
 
 My Cart Page:
 - cart container with cart items, details, price, item-quantity & qty & delete button (all within a full-width rectangle card)
->>>>>>> 3f5b90a902ea48ecf682a517b9a129c83266f599
 
 Contact Us: Automatically scrolls to the footer when clicked
 
@@ -83,21 +87,67 @@ Users can select their payment option, key in their card information & save it f
 Subscriptions & live sessions:
 Users can subscribe to my company for more information on upcoming sales, goods & promotions. Every session will record user data and be stored for use later.
 
-<<<<<<< HEAD
-## Technologies Used
-
-My JS code does not use JQuery but opts for plain javascript, Event listeners (DOM content loaded, scroll() and click).
-
-DOM Manipulation like getElementByID & style.Opacity. Followed by smooth scrolling (windows.scrollto & behaviour: "smooth")
-=======
-Technologies Used:
->>>>>>> 3f5b90a902ea48ecf682a517b9a129c83266f599
+## Technologies Used:
 
 Font Awesome Icons: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css
 
 (Font Awesome is utilized for scalable vector icons, adding visual appeal to the website through social media icons and other graphical elements. Used for my navigation bar) 
 
 ## Testing
+
+- Customer that wants to contact the company & redeem codes:
+  
+  steps to take:
+  i. click the contact us tab in nav bar
+  ii. find the contact information, map, quick links to other pages.
+  iii. Have the option to visit socials
+  iv. Redeem their code via form
+  
+  Expectations:
+  Upon clicking the contact us tab, the page should automatically scroll down to the footer.
+
+  Clicking on the social media icons will direct the user to their respective platforms.
+
+  Input a redemption code, submit and see a confirmation message with code redemption details.
+
+  Reality:
+  Redemption code form does not have the expected functionality. Form validation is active but message will not show.
+
+- Customer that wants to view more products and buy them:
+
+  steps to take:
+  i. Customer can scroll the image sliders horizontally on both arrival & featured to see more products available in the home page.
+  ii. clicking on the view more button should direct users to the product page.
+  iii. By hovering over the product images, customers can view its details (name, price & info) as well as a add to cart button. (if user is not hovering those details are hidden)
+  iv. clicking the add to cart button, creates a pop-up notification that confirms the action.
+  v. Navigating to the my cart page will showcase all the products added to the cart.
+  vi. Customers can view product image, name , info, price.
+  vii. Customers can edit product quantity & choose to delete the item from their cart.
+  
+  Expectations:
+  - image sliders can move images horizontally
+  - users are directed to products page
+  - hovering over product image should show details & add to cart button.
+  - those details should then be hidden when user is not interacting.
+  - pop-up notification should show confirmation details of user action after clicking add to cart button
+  - All products added to cart should be in the my cart page
+  - product img & details should be seen 
+  - product quantity can be edited and product can be deleted.
+
+  Reality:
+  - no pop up notification
+  - products that should be added into the cart are not added
+  - products in cart are sadly hard-coded in
+  - quantity & delete buttons do not work 
+  
+- Customer that wants to hop to every page:
+  
+  steps to take:
+  i. click all tabs in the nav bar
+  ii. successfully navigate to every page
+
+  Expectations & reality:
+  Nav bar routes work without issue
 
 ## Credits
  
@@ -154,13 +204,7 @@ I was inspired to create this website based off the stereotype of couch potatoes
 
 https://dictionary.cambridge.org/dictionary/english/couch-potato
 
-<<<<<<< HEAD
-Materials referenced:
-
-PoliteMall ID Slides
-=======
 Some of my website features were made possible by referencing the following videos/sites/material:
->>>>>>> 3f5b90a902ea48ecf682a517b9a129c83266f599
 
 javascript ref:
 https://youtu.be/SrSBhuuuIsg?si=8EiQFbhLEVDQsA3Z
@@ -173,8 +217,4 @@ https://youtu.be/hr4JiDr7Aec?si=S7uZs27NYBoxnL9g
 
 https://www.w3schools.com/ 
 
-<<<<<<< HEAD
-
-=======
 PoliteMall Slides
->>>>>>> 3f5b90a902ea48ecf682a517b9a129c83266f599
