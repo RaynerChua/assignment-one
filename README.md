@@ -58,7 +58,7 @@ Contact Us: Automatically scrolls to the footer when clicked
 
 My Cart Page:
 - cart container with cart items, details, price, item-quantity & qty & delete button (all within a full-width rectangle card)
->>>>>>> 3f5b90a902ea48ecf682a517b9a129c83266f599
+
 
 Contact Us: Automatically scrolls to the footer when clicked
 
