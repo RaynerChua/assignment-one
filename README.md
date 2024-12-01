@@ -9,7 +9,7 @@ What sets The Potato Lounge apart is its convenience and exclusivity. Instead of
 Our chefs take immense pride in crafting potato products of unparalleled quality, far superior to typical supermarket offerings. Guided by a commitment to quality over quantity, The Potato Lounge aspires to attract a growing community of online shoppers, with only 1 physical store, we hope to eventually branch out into more stores across Singapore. ( For those who might prefer shopping in person.)
 
 
-DESIGN PROCESS
+## DESIGN PROCESS
 
 At our store, we specialize in stylish modern couches that enhance any living space. Along with our beautiful furniture, we offer
 exclusive branded potato snacks that customers can conveniently add to their purchase. Whether they are looking to elevate their home with a chic couch or simply indulge in delicious snacks, we have something for everyone. We wouldn't want them to miss out on the chance to enjoy the best of both worlds!
@@ -30,9 +30,7 @@ https://assets.adobe.com/id/urn:aaid:sc:AP:d33b4d15-4c79-4a8d-9f2e-9b1556878fdb?
 Final Figma Wireframe:
 https://www.figma.com/design/1jT0NMbXnCWsLvjhAm6p1b/ID_S10270587_Chua_Yi_Xuan_Rayner_Asg1_Final_WF?node-id=0-1&t=r5xTE4x2F4MTvaNI-1
 
-FEATURES
-
-Existing Features:
+## FEATURES
 
 - Company logo is center aligned & featured on every page. I designed the logo myself with Adobe illustrator.
 
@@ -51,9 +49,16 @@ Products Page:
 
 History Page:
 
--
+- h1 (title/question) & h2(description)
+- image container with images related to the description.
+- image with text-cards next to them (contains card title & short description of image)
 
-Future Features:
+Contact Us: Automatically scrolls to the footer when clicked
+
+My Cart Page:
+- cart container with cart items, details, price, item-quantity & qty & delete button (all within a full-width rectangle card)
+
+## Features yet to be implemented
 
 Add to cart function:
 I hope I can code it so that customers can directly add the item they want to purchase from the products page into their cart, adjust the quantity & delete it when necessary.
@@ -69,17 +74,19 @@ Users can select their payment option, key in their card information & save it f
 Subscriptions & live sessions:
 Users can subscribe to my company for more information on upcoming sales, goods & promotions. Every session will record user data and be stored for use later.
 
-Technologies Used
+## Technologies Used
 
 My JS code does not use JQuery but opts for plain javascript, Event listeners (DOM content loaded, scroll() and click).
 
 DOM Manipulation like getElementByID & style.Opacity. Followed by smooth scrolling (windows.scrollto & behaviour: "smooth")
 
-Font Awesome Icons: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css (Font Awesome is utilized for scalable vector icons, adding visual appeal to the website through social media icons and other graphical elements. Used for my navigation bar)
+Font Awesome Icons: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css
 
-Testing:
+(Font Awesome is utilized for scalable vector icons, adding visual appeal to the website through social media icons and other graphical elements. Used for my navigation bar) 
 
-CREDITS
+## Testing
+
+## Credits
  
 Content:
 I made up most of the content in the site but here are some real websites that I used as a reference for my own site's appearance:
@@ -88,7 +95,7 @@ https://www.ikea.com/sg/en/cat/sofas-fu003/ (IKEA)
 
 https://eatirvins.sg/ (Irvins)
 
-Media sourced externally:
+## Media
 
 I designed the company logo in adove illustrator.
 
@@ -128,10 +135,25 @@ https://static01.nyt.com/images/2015/07/01/dining/01APPE_INLINE/01APPE_INLINE-sq
 chips:
 https://www.allrecipes.com/thmb/QO6I4DXnnrXZj1DjcOeRbFSmjk8=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/73135-homestyle-potato-chips-ddmfs-0348-3x4-hero-c21021303c8849bbb40c1007bfa9af6e.jpg
 
-Acknowledgement:
+## Acknowledgement
 
 I was inspired to create this website based off the stereotype of couch potatoes:
 
 https://dictionary.cambridge.org/dictionary/english/couch-potato
 
-Some of my website features were made possible by referencing the following videos:
+Materials referenced:
+
+PoliteMall ID Slides
+
+javascript ref:
+https://youtu.be/SrSBhuuuIsg?si=8EiQFbhLEVDQsA3Z
+
+Image Card Slider:
+https://youtu.be/VUtJ7FWCfZA?si=mQmOlV31wraYF9Fi
+
+image with text overlay & button:
+https://youtu.be/hr4JiDr7Aec?si=S7uZs27NYBoxnL9g
+
+https://www.w3schools.com/ 
+
+
