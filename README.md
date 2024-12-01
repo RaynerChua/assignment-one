@@ -34,11 +34,12 @@ FEATURES
 
 Existing Features:
 
-- Company logo is center aligned & featured on every page. I designed the logo myself with Adobe illustrator.
+Company logo is center aligned & featured on every page. I designed the logo myself with Adobe illustrator.
 
-- Top Navigation bar: Can be found on all pages, allows users to easily access different pages in the website. Clicking the Contact Us tab will automatically scroll down to the footer.
+Top Navigation bar: Can be found on all pages, allows users to easily access different pages in the website. Clicking the Contact Us tab will automatically scroll down to the footer.
   
-- Footer: Contains Contact Us information (email & phone) and a Google map. Quick links are placed to the right if user wishes not to scroll back up to the navigation bar. Users can also choose to follow our socials or redeem their Potato Lounge codes right below our social icons. There is also a back-to-top button in the bottom right corner of the footer that automatically scrolls all the way up if the user wishes to view new arrivals.
+Footer: 
+- Contains Contact Us information (email & phone) and a Google map. Quick links are placed to the right if user wishes not to scroll back up to the navigation bar. Users can also choose to follow our socials or redeem their Potato Lounge codes right below our social icons. There is also a back-to-top button in the bottom right corner of the footer that automatically scrolls all the way up if the user wishes to view new arrivals.
 
 Home page:
 - Horizontal Image card slider (with text & button overlay) on home screen: One for New Arrivals and another for Featured Goods. Every card includes a product image with its name, description & a view more button (that directs users to the products page). The slider can be moved left & right.
@@ -51,7 +52,14 @@ Products Page:
 
 History Page:
 
--
+- h1 (title/question) & h2(description)
+- image container with images related to the description.
+- image with text-cards next to them (contains card title & short description of image)
+
+Contact Us: Automatically scrolls to the footer when clicked
+
+My Cart Page:
+- cart container with cart items, details, price, item-quantity & qty & delete button (all within a full-width rectangle card)
 
 Future Features:
 
@@ -69,11 +77,7 @@ Users can select their payment option, key in their card information & save it f
 Subscriptions & live sessions:
 Users can subscribe to my company for more information on upcoming sales, goods & promotions. Every session will record user data and be stored for use later.
 
-Technologies Used
-
-My JS code does not use JQuery but opts for plain javascript, Event listeners (DOM content loaded, scroll() and click).
-
-DOM Manipulation like getElementByID & style.Opacity. Followed by smooth scrolling (windows.scrollto & behaviour: "smooth")
+Technologies Used:
 
 Font Awesome Icons: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css (Font Awesome is utilized for scalable vector icons, adding visual appeal to the website through social media icons and other graphical elements. Used for my navigation bar)
 
@@ -82,7 +86,7 @@ Testing:
 CREDITS
  
 Content:
-I made up most of the content in the site but here are some real websites that I used as a reference for my own site's appearance:
+I made up most of the content in the site but here are some real websites that I used as a reference/inspiration for my own site's appearance:
 
 https://www.ikea.com/sg/en/cat/sofas-fu003/ (IKEA)
 
@@ -134,4 +138,17 @@ I was inspired to create this website based off the stereotype of couch potatoes
 
 https://dictionary.cambridge.org/dictionary/english/couch-potato
 
-Some of my website features were made possible by referencing the following videos:
+Some of my website features were made possible by referencing the following videos/sites/material:
+
+javascript ref:
+https://youtu.be/SrSBhuuuIsg?si=8EiQFbhLEVDQsA3Z
+
+Image Card Slider:
+https://youtu.be/VUtJ7FWCfZA?si=mQmOlV31wraYF9Fi
+
+image with text overlay & button:
+https://youtu.be/hr4JiDr7Aec?si=S7uZs27NYBoxnL9g
+
+https://www.w3schools.com/ 
+
+PoliteMall Slides
