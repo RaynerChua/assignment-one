@@ -102,7 +102,7 @@ Font Awesome Icons: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-be
 
 ## Testing
 
-Website is functional in Microsoft Edge & Google Chrome.
+Website is functional in Microsoft Edge.
 
 User stories & test scenario:
 
